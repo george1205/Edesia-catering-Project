@@ -1,0 +1,251 @@
+@font-face {
+    font-family: 'Code';
+    src: url('/Fonts/CODE\ Bold.otf');
+      
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('/Fonts/KeepCalm-Medium.ttf');
+      
+}
+
+body {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    font-family: 'bold';
+
+}
+
+h1 {
+    color: #105b44;
+}
+
+h2 {
+    color: #2dc396 ;
+}
+
+p {
+    color: #175240;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #33ad89;
+}
+
+.title img {
+    width: 350px;
+    grid-column: 2;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: bold;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+}
+
+.single_sec {
+    color: #000000;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.single_sec h1 {
+    position: relative;
+    bottom: 40px;
+    top:20px;
+    font-family: 'bold';
+    font-size: 30px;
+    text-align: center;
+}
+
+.single_sec h2 {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.single_sec p {
+    
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.menu_description {
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu_list {
+    text-align: center;
+}
+
+.menu_price {
+    text-align: center;
+}
+
+.single_sec img {
+    width:100%;
+    
+    
+}
+.single_sec a {
+    text-decoration: none;
+    color: #125036;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.single_sec_bk {
+    padding-top: 30px;
+    background: #33ad89;
+    width: 100%;
+}
+
+.single_sec_head {
+    display: none;
+}
+
+.single_sec_img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.single_sec a:hover {
+    color: #34df98;
+}
+
+.services_title {
+    font-family: 'bold';
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.services_title h1 {
+    color: white;
+    font-weight: lighter;
+}
+
+.services .service_sub {
+    display: block;
+    font-family: 'bold';
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navBar {
+   width: 100%;
+   background:  white;
+   text-align: center;
+
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #175240;
+    padding: 10px;
+}
+
+
+ul li a:hover{
+    color: #33ad89;
+}
+
+.toggle {
+    width: 100%;
+    padding: 10px;
+    background: #175240;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 25px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+@media (max-width:700px)
+{
+    .toggle
+    {
+        display: block;
+    }
+    
+    ul{
+        width: 80%;
+        display: none;
+    }
+
+    ul li {
+        display: block;
+        text-align:center;
+    }
+}
+
+.Header H1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#footer {
+    display: block;
+    font-family: sans-serif;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.ft_info {
+    margin: 10px;
+}
+
+.social-links {
+    padding-bottom: 40px;
+    text-align: center;
+ }
+ 
+ .social-links img {
+    width: 60px;
+    margin: 15px;
+ } 
+
+
+
+

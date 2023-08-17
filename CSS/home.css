@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Code';
+    src: url('/fonts/CODE\ Bold.otf');
+      
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('/fonts/KeepCalm-Medium.ttf');
+      
+}
+
+h3 {
+    color: #000000;
+    font-family: bold;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#welcome {
+    margin: 0;
+    padding: 50px;
+    color: #175240;
+    text-align: center;
+    font-size: 50px;
+}
+
+.services {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background:#33ad89;
+    
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services a:hover {
+    
+    font-weight: lighter;
+    font-size: 20px;
+    color:  #175240;
+    text-decoration: none;
+}
+
+.services img {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 180px;  
+}
+
+.contact-cta {
+    display: grid;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.cta-button {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px; 
+    background: #175240;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background: #33ad89; 
+    border-style: none;
+}
+
+#head_note {
+    color: #34df98;
+} 
+

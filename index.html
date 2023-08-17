@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/home.css" type="text/css">
+    <link rel="stylesheet" href="CSS/mediaQ.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+    <div class="grid">
+
+        <!--Top section with logo-->
+        <div class="title">            
+            <img src="/Images/edesia white.png" alt="logo">
+
+        <!--Menu icon-->
+        </div>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!--Navagation bar-->
+        
+        <div>
+            <nav class="navBar">
+                <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="menus.html">MENUS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <h1 id="welcome">Welcome to Edesia</h1>
+
+        <div class="single_sec">
+
+            <h1>OUR ETHOS</h1>
+            
+            <p> We pride ourselves on delivering a great service with great food, all at fantastic value. Ensuring we are able to cater
+                for all occasions with varying budgets, while striving to use sustainable,
+                locally sourced, organic produce wherever possible. 
+            </p>
+        </div>
+
+        <SECTION class="services">
+            
+            <div class="services_title">
+                <br>
+                <h1>SERVICES</h1>
+            </div>
+            <div>
+                <a href="services.html"><img src="Images/home page/wedding.jpg" alt="weddings"></a>
+                <a class="service_sub" href="services.html">WEDDINGS</a>
+            </div>
+            <div>
+                <a href="services.html"><img src="Images/home page/corp.jpg" alt="corporation"></a>
+                <a class="service_sub" href="services.html">CORPORATE</a>
+            </div>
+            <div>
+                <a href="services.html"><img src="Images/home page/Pulled.jpg" alt="Pulled"></a>
+                <a class="service_sub" href="services.html">PULLED PORK</a>
+            </div>
+            <div>
+                <a href="services.html"><img src="Images/home page/bar3.jpg" alt="Bar"></a>
+                <a class="service_sub" href="services.html">BAR SERVICE</a>
+            </div>
+            <br><br>
+        </SECTION>
+            
+            <div class="contact-cta">
+                <div class="social-links">
+                        <a href="https://twitter.com/GeorgeS22933228"><img src="/Images/home page/twitter.png" alt="Twitter link"></a>
+                        <a href="https://www.facebook.com/EdesiaCateringServices"><img src="/Images/home page/facebook.png" alt="Facebook link"></a>
+                        <a href="https://www.instagram.com/edesiacateringservices/"><img src="/Images/home page/insta.png" alt="instagram link"></a>
+             
+                </div>
+                <button class="cta-button">CONTACT US</button>
+            </div>
+        
+            <div id="footer">
+                <div class="ft_info">© Edesia Catering Services</div>
+                <div class="ft_info">Telephone: 07739962000</div>
+                <div class="ft_info">Email: info@edesiacatering.co.uk</div>
+            </div>
+
+       
+        
+       
+<script
+src="https://code.jquery.com/jquery-3.3.1.js"
+integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+crossorigin="anonymous">
+</script>
+<script>
+    $(document).ready(function(){
+        $('.menu').click(function(){
+            $('ul').toggleClass('active');
+        })
+    });
+
+</script>
+        
+</body>
+</html>

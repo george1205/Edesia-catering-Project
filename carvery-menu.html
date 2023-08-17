@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="CSS/menu.css" type="text/css">
+    <link rel="stylesheet" href="CSS/mediaQ.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+    <title>Carvery</title>
+</head>
+<body>
+    <div class="grid">
+
+        <!--Top section with logo-->
+        <div class="title">            
+            <img src="/Images/edesia white.png" alt="logo">
+        </div>
+        
+        <!--Menu icon-->
+        
+        <div class="toggle">
+            <i class="fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+       
+        <!--Navagation bar-->
+        
+        <div>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="menus.html">MENUS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <br><br>
+
+        <div class="single_sec">
+            <h1>CARVERY</h1>
+                <br>
+            <h2 class="menu_description">
+                Our renowned carvery made served using only the best, locally sourced meats and
+                vegetables.
+            </h2>
+            <br>
+            <h2 class="menu_price">From £16.95 per head</h2>
+            
+            <br><br>
+            <p class="menu_description">
+                There is a choice between 3 different meats, including;
+            </p>
+            <p class="menu_list">
+                Roasted topside of beef
+                <br>
+                -
+                <br>
+                Succulent turkey breast
+                <br>
+                -
+                <br>
+                Slow roast belly pork
+                <br>
+            </p>
+            <p class="menu_description">
+                As well as a choice of 6 vegetables, including;
+            </p>
+            <p class="menu_list">
+                Carrots
+                <br>
+                -
+                <br>
+                Buttery peppered swede
+                <br>
+                -
+                <br>
+                Green cabbage
+                <br>
+                -
+                <br>
+                Home grown peas
+                <br>
+                -
+                <br>
+                Cauliflower cheese
+                <br>
+                -
+                <br>
+                Salted broccoli
+                <br>
+            </p>
+            <p class="menu_description">
+                Finished off with a selection of roast or mashed potato, homemade stuffing and yorkshire puddings
+                and lashings of gravy.
+            </p>
+            
+            <p class="menu_description">
+                All accompanied with a choice of;
+            </p>
+            <p class="menu_list">
+                Homemade apple sauce
+                <br>
+                -
+                <br>
+                Horse radish
+                <br>
+                -
+                <br>
+                Cranberry sauce
+                <br>
+                -
+                <br>
+                Mint sauce
+                <br><br><br>
+                <a href="menus.html">Click here</a> to return to menu's.
+            </p>
+
+        </div>
+            <div id="footer">
+                    <div class="ft_info">© Edesia Catering Services</div>
+                    <div class="ft_info">Telephone: 07739962000</div>
+                    <div class="ft_info">Email: info@edesiacatering.co.uk</div>
+                </div>
+        
+               
+                
+               
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('.menu').click(function(){
+                    $('ul').toggleClass('active');
+                })
+            })
+        
+        </script>
+                
+        </body>
+        </html>

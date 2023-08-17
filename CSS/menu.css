@@ -1,0 +1,44 @@
+/*menu layout*/
+
+.menu_option_sub a {
+    text-decoration: none;
+}
+
+.menu_option_sub a:hover {
+    
+    font-weight: lighter;
+    font-size: 20px;
+    color: #34df98;
+    text-decoration: none;
+}
+
+.menu_option img {
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 180px;  
+}
+
+.menu_option {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background: #33ad89;
+    padding-bottom: 50px;
+}
+
+.menu_option_sub {
+    display: block;
+    font-family: 'bold';
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+.menu_option_sub:hover {
+    color: #175240;
+}
